@@ -1,7 +1,10 @@
-npm init 
+npm init -y
+npm install --save-dev rollup
+echo "building venv..."
 python3 -m venv myvenv
-source myvenv/bin/activate
-pip3 install -m addict transcrypt
+echo "done"
+. ./myvenv/bin/activate
+pip3 install  addict transcrypt
 
 python3 setup.py
 

@@ -1,7 +1,7 @@
 {
   "name": "pyonweb",
   "version": "1.0.0",
-  "description": "",
+  "description": "run `setup.sh` on machine with latest Python3 installed (3.8 or above)",
   "main": "index.js",
   "scripts": {
     "rollup": "rollup -c -w --environment BUILD:development",
@@ -14,5 +14,13 @@
     "postcss": "^8.4.12",
     "rollup": "^2.70.1",
     "rollup-plugin-postcss": "^4.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandeep-gh/rollup_circular_dependency_bug.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sandeep-gh/rollup_circular_dependency_bug/issues"
+  },
+  "homepage": "https://github.com/sandeep-gh/rollup_circular_dependency_bug#readme"
 }
