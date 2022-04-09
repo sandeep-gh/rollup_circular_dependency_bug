@@ -1,5 +1,5 @@
 # To reproduce the bug
-run `setup.sh` on machine with latest Python3 installed (3.8 or above)
+run `setup.sh` on machine with latest Python3 installed (tested with Python 3.10)
 
 
 
